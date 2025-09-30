@@ -1,0 +1,9 @@
+{"timestamp": "2025-09-29T21:07:18.899850", "url": "https://www.python.org/", "size_bytes": 50193, "status_code": 200, "depth": 0, "domain_priority": 1.0, "superdomain_priority": 1.0}
+{"timestamp": "2025-09-29T21:07:35.485535", "url": "https://news.ycombinator.com/", "size_bytes": 34523, "status_code": 200, "depth": 0, "domain_priority": 1.0, "superdomain_priority": 1.0}
+{"timestamp": "2025-09-29T21:07:43.544207", "url": "https://pypi.org/", "size_bytes": 23031, "status_code": 200, "depth": 1, "domain_priority": 1.0, "superdomain_priority": 1.0}
+{"timestamp": "2025-09-29T21:07:49.369550", "url": "https://psfmember.org/civicrm/contribute/transact/?reset=1&id=2", "size_bytes": 157194, "status_code": 200, "depth": 1, "domain_priority": 1.0, "superdomain_priority": 1.0}
+{"timestamp": "2025-09-29T21:07:50.868044", "url": "https://fosstodon.org/@ThePSF", "size_bytes": 38876, "status_code": 200, "depth": 1, "domain_priority": 1.0, "superdomain_priority": 1.0}
+{"timestamp": "2025-09-29T21:07:53.548045", "url": "https://brochure.getpython.info/", "size_bytes": 28585, "status_code": 200, "depth": 1, "domain_priority": 1.0, "superdomain_priority": 1.0}
+{"timestamp": "2025-09-29T21:07:55.282913", "url": "https://pyfound.blogspot.com/", "size_bytes": 138390, "status_code": 200, "depth": 1, "domain_priority": 1.0, "superdomain_priority": 1.0}
+{"timestamp": "2025-09-29T21:07:57.474021", "url": "https://pycon.blogspot.com/", "size_bytes": 163831, "status_code": 200, "depth": 1, "domain_priority": 1.0, "superdomain_priority": 0.6309}
+{"timestamp": "2025-09-29T21:07:58.841349", "url": "https://planetpython.org/", "size_bytes": 216713, "status_code": 200, "depth": 1, "domain_priority": 1.0, "superdomain_priority": 1.0}
