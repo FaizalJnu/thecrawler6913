@@ -1,0 +1,84 @@
+### High-Level Description
+
+This program is a multi-threaded web crawler designed for efficient and polite traversal of websites. It begins with a set of initial seed URLs and concurrently explores linked pages up to a user-defined depth and total page count. The core of its strategy is a priority queue, which intelligently decides the next URL to visit based on factors like crawl depth, relevance to a user's query, and domain diversity. This ensures a more focused and efficient crawl than a simple breadth-first or depth-first search. To maintain high performance, the crawler uses a pool of worker threads, with each thread managing its own HTTP session for connection pooling. Critical operations like logging are handled asynchronously by a dedicated thread to prevent I/O bottlenecks.
+
+### How It Works
+
+The crawler's operation is orchestrated by the `WebCrawler` class and a pool of worker threads.
+
+1.  **Initialization & Seeding:** The process starts by populating a priority queue (implemented as a min-heap) with a list of initial seed URLs, each assigned a depth of 0. Shared data structures, such as a set for tracking visited URLs (using MD5 hashes for efficiency) and statistics counters, are also initialized along with the necessary locks for thread-safe access.
+
+2.  **Worker Thread Logic:** A `ThreadPoolExecutor` manages multiple worker threads. Each worker executes a loop that performs the following steps:
+
+      * **Dequeue URL:** It retrieves the highest-priority URL from the shared priority queue. The priority is calculated to favor pages at a shallower depth, URLs containing the search query, and pages on less-frequently visited domains.
+      * **Check Permissions:** It checks a cached `robots.txt` parser for the URL's domain to ensure the crawler is permitted to access the page.
+      * **Fetch Page:** Using a thread-local `requests.Session`, it fetches the page content. This thread-local approach avoids sharing session objects and enables efficient connection pooling per thread.
+      * **Process & Parse:** Upon a successful fetch, it checks for non-HTML content, CAPTCHA pages, or login forms, which are discarded. For valid HTML pages, it uses `BeautifulSoup` to parse the content and extract all unique, valid hyperlinks.
+      * **Enqueue New Links:** The newly discovered links are assigned a depth of `(current depth + 1)` and are added to the priority queue in a single batch operation to minimize lock contention.
+      * **Log Asynchronously:** The result of the fetch (status, size, URL, etc.) is placed into a queue. A separate, dedicated logging thread reads from this queue and writes to the log file, preventing the worker threads from being blocked by disk I/O.
+
+3.  **Termination:** The crawl continues until the user-defined `max_pages` limit is reached. The worker threads then exit, the logging thread finishes writing its queue, and final statistics about the crawl are printed to the console.
+
+### Bugs / Non-Working Features
+
+1.  **Limited Query Use:** The user-provided `query` is only used to slightly increase the priority of URLs that contain the query string. The program does not search for the query within the actual page content; it is a crawler, not a search engine.
+2.  **No JavaScript Execution:** The crawler only parses the static HTML returned by the server. It cannot render pages or execute JavaScript, so it will miss any content or links that are loaded dynamically.
+3.  **Potential Log Loss:** The asynchronous logging queue has a fixed size. If the crawler is operating at an extremely high speed on a slow disk, it's possible for this queue to fill up, which would cause subsequent log entries to be silently dropped until space becomes available.
+4.  **No Automatic Retries:** The HTTP session is configured not to retry on connection errors or timeouts. A transient network failure will cause the fetch for that specific URL to fail permanently for this run.
+
+### Additional Resources Used
+
+  * **requests:** For handling all HTTP requests and connection pooling.
+  * **BeautifulSoup4 (`bs4`):** For robust and flexible HTML parsing to extract hyperlinks.
+  * **Standard Python Libraries:** The program relies heavily on built-in libraries, including `threading`, `concurrent.futures`, `queue`, `heapq`, `urllib`, `logging`, `hashlib`, and `collections`.
+
+### Special Features
+
+1.  **Priority-Based Crawling:** Instead of a simple FIFO (breadth-first) or LIFO (depth-first) queue, it uses a priority queue to make intelligent decisions about which pages to visit next, improving the efficiency of discovery.
+2.  **Asynchronous Logging:** A dedicated logging thread prevents disk I/O from becoming a bottleneck, allowing the worker threads to focus entirely on fetching and processing pages at maximum speed.
+3.  **Thread-Local Sessions:** Each thread uses its own `requests.Session` object, which is a best practice for performance and thread safety in concurrent applications, enabling effective HTTP connection pooling.
+4.  **Efficient Concurrency:** Utilizes fine-grained locking (separate locks for the queue, visited set, and stats) and batch operations to minimize lock contention and maximize parallel execution among threads.
+5.  **Smart Content Filtering:** The crawler actively identifies and ignores common non-useful pages such as CAPTCHAs, login pages, and links to non-HTML file types (images, PDFs, etc.), improving the overall quality of the crawled pages.
+
+
+Below is also summary of key features confirmed and refined as part of the recent project demo discussion.
+
+1. Adherence to Web Standards (robots.txt & CGI Script Avoidance)
+
+Robot Parser: Confirmed. The crawler respects robots.txt protocols. The _get_robot_parser function is responsible for fetching, parsing, and caching the robots.txt file for each domain. This is enforced by the _can_fetch method, which verifies the crawler's user agent is permitted to access a specific URL before any request is made.
+
+CGI Script Avoidance: Confirmed. The _should_skip_url function explicitly filters any URL containing "cgi", preventing the crawler from getting trapped in dynamic, parameter-driven script pages.
+
+2. URL Canonicalization (Handling of Ambiguous Hyperlinks)
+
+Confirmed. The crawler normalizes URLs to prevent ambiguity from URL fragments. In the _extract_links function, all URLs are processed with full_url.split('#')[0], which strips fragment identifiers. This ensures that different links pointing to the same base page are treated as a single entity and visited only once.
+
+3. Robust Link Resolution (Redirects & Relative URLs)
+
+URL Forwarding (Redirects): Confirmed. The fetch_url function uses the parameter allow_redirects=True in its requests.get call. This enables the requests library to automatically follow HTTP redirects (e.g., status codes 301, 302), ensuring the crawler processes the final destination page.
+
+Relative URLs: Confirmed. The _extract_links function uses urljoin() to resolve all forms of relative links into absolute, crawlable URLs, correctly interpreting the page's base URL.
+
+4. Content-Type Filtering (Non-HTML File Avoidance)
+
+Confirmed. This is handled through a two-stage process. First, the URL_BLACKLIST_EXTENSIONS constant provides a list of file extensions that are filtered out by the _should_skip_url function before a request is made. Second, after a successful fetch, the fetch_url function inspects the Content-Type header and only proceeds to parse content identified as 'text/html'.
+
+5. Crawl Cycle Prevention (Past URL Avoidance)
+
+Confirmed. The crawler effectively prevents re-visiting pages and getting caught in loops. The WebCrawler class maintains a set named self.visited_hashes. In the _add_urls_batch function, an MD5 hash of each potential new URL is checked against this set. URLs that have been seen before are discarded.
+
+6. System Resiliency (Comprehensive Exception Handling)
+
+Confirmed. The application is fortified with try...except blocks at critical points. The main fetch_url operation is wrapped in a broad exception handler to catch any network-related errors (timeouts, DNS failures, etc.), log them, and allow the thread to continue. Parsing functions like _extract_links are also protected to handle malformed content gracefully.
+
+7. Graceful Failure on HTTP Errors (Non-Success Code Handling)
+
+Confirmed. The crawler explicitly checks for non-200 HTTP status codes within the fetch_url function. If a response code is not successful, the attempt is marked as a failure and no further processing is attempted for that URL. It also specifically tracks 404 errors for statistical reporting.
+
+8. Network Reliability (Request Timeouts)
+
+Confirmed. All external network operations are configured with timeouts to prevent threads from hanging. The main page request in fetch_url has a timeout of 5 seconds, while the robots.txt fetch in _get_robot_parser has a more aggressive 0.5-second timeout to fail quickly on unresponsive servers.
+
+9. Intelligent Pathfinding (Login Page Detection)
+
+Confirmed. The program includes a heuristic to avoid getting stuck in password-protected areas. The _is_login_page method identifies login pages by checking for the presence of a password input field. Within fetch_url, if a page is identified as a login page, link extraction is skipped, preventing the crawler from following links like "Forgot Password" or "Sign Up".

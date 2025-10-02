@@ -1,0 +1,564 @@
+2025-10-01 23:35:21,756 - MainThread - INFO - Starting crawl for query: 'help' with 48 threads.
+2025-10-01 23:35:21,757 - MainThread - INFO - Added 5 initial URLs to queue
+2025-10-01 23:35:21,757 - Worker_0 - INFO - Worker_0 started
+2025-10-01 23:35:21,758 - Worker_1 - INFO - Worker_1 started
+2025-10-01 23:35:21,759 - Worker_2 - INFO - Worker_2 started
+2025-10-01 23:35:21,759 - Worker_3 - INFO - Worker_3 started
+2025-10-01 23:35:21,760 - Worker_4 - INFO - Worker_4 started
+2025-10-01 23:35:21,760 - Worker_5 - INFO - Worker_5 started
+2025-10-01 23:35:21,761 - Worker_6 - INFO - Worker_6 started
+2025-10-01 23:35:21,761 - Worker_7 - INFO - Worker_7 started
+2025-10-01 23:35:21,761 - Worker_8 - INFO - Worker_8 started
+2025-10-01 23:35:21,761 - Worker_9 - INFO - Worker_9 started
+2025-10-01 23:35:21,762 - Worker_10 - INFO - Worker_10 started
+2025-10-01 23:35:21,762 - Worker_11 - INFO - Worker_11 started
+2025-10-01 23:35:21,762 - Worker_12 - INFO - Worker_12 started
+2025-10-01 23:35:21,762 - Worker_13 - INFO - Worker_13 started
+2025-10-01 23:35:21,763 - Worker_14 - INFO - Worker_14 started
+2025-10-01 23:35:21,763 - Worker_15 - INFO - Worker_15 started
+2025-10-01 23:35:21,763 - Worker_16 - INFO - Worker_16 started
+2025-10-01 23:35:21,763 - Worker_17 - INFO - Worker_17 started
+2025-10-01 23:35:21,764 - Worker_18 - INFO - Worker_18 started
+2025-10-01 23:35:21,764 - Worker_19 - INFO - Worker_19 started
+2025-10-01 23:35:21,764 - Worker_20 - INFO - Worker_20 started
+2025-10-01 23:35:21,764 - Worker_21 - INFO - Worker_21 started
+2025-10-01 23:35:21,765 - Worker_22 - INFO - Worker_22 started
+2025-10-01 23:35:21,765 - Worker_23 - INFO - Worker_23 started
+2025-10-01 23:35:21,765 - Worker_24 - INFO - Worker_24 started
+2025-10-01 23:35:21,765 - Worker_25 - INFO - Worker_25 started
+2025-10-01 23:35:21,766 - Worker_26 - INFO - Worker_26 started
+2025-10-01 23:35:21,766 - Worker_27 - INFO - Worker_27 started
+2025-10-01 23:35:21,766 - Worker_28 - INFO - Worker_28 started
+2025-10-01 23:35:21,767 - Worker_29 - INFO - Worker_29 started
+2025-10-01 23:35:21,768 - Worker_30 - INFO - Worker_30 started
+2025-10-01 23:35:21,768 - Worker_31 - INFO - Worker_31 started
+2025-10-01 23:35:21,768 - Worker_32 - INFO - Worker_32 started
+2025-10-01 23:35:21,768 - Worker_33 - INFO - Worker_33 started
+2025-10-01 23:35:21,768 - Worker_34 - INFO - Worker_34 started
+2025-10-01 23:35:21,769 - Worker_35 - INFO - Worker_35 started
+2025-10-01 23:35:21,769 - Worker_36 - INFO - Worker_36 started
+2025-10-01 23:35:21,769 - Worker_37 - INFO - Worker_37 started
+2025-10-01 23:35:21,769 - Worker_38 - INFO - Worker_38 started
+2025-10-01 23:35:21,769 - Worker_39 - INFO - Worker_39 started
+2025-10-01 23:35:21,769 - Worker_40 - INFO - Worker_40 started
+2025-10-01 23:35:21,770 - Worker_42 - INFO - Worker_42 started
+2025-10-01 23:35:21,769 - Worker_41 - INFO - Worker_41 started
+2025-10-01 23:35:21,770 - Worker_43 - INFO - Worker_43 started
+2025-10-01 23:35:21,770 - Worker_44 - INFO - Worker_44 started
+2025-10-01 23:35:21,770 - Worker_45 - INFO - Worker_45 started
+2025-10-01 23:35:21,770 - Worker_46 - INFO - Worker_46 started
+2025-10-01 23:35:21,771 - Worker_47 - INFO - Worker_47 started
+2025-10-01 23:35:28,268 - Worker_8 - WARNING - Error fetching http://wcag.ie: SSLError
+2025-10-01 23:35:31,674 - Worker_21 - WARNING - Error fetching https://www.nhk.or.jp/strl/english/: ConnectionError
+2025-10-01 23:35:33,875 - Worker_24 - WARNING - Error fetching https://www.washingtonpost.com/: ReadTimeout
+2025-10-01 23:35:47,215 - Worker_43 - WARNING - Error fetching http://www.sztaki.hu: ReadTimeout
+2025-10-01 23:36:05,837 - Worker_3 - WARNING - Error fetching https://transferks.kansasregents.org: SSLError
+2025-10-01 23:36:10,297 - Worker_36 - WARNING - Error fetching http://hdl.handle.net/10609/5222: ReadTimeout
+2025-10-01 23:36:54,242 - Worker_3 - WARNING - Error fetching https://community.cisco.com/: ReadTimeout
+2025-10-01 23:37:07,801 - Worker_31 - WARNING - Error fetching https://www.adventuresbydisney.com/: ReadTimeout
+2025-10-01 23:37:21,570 - Worker_23 - WARNING - Error fetching http://virtuoso.openlinksw.com/web-application-server/: ReadTimeout
+2025-10-01 23:37:21,653 - Worker_14 - WARNING - Error fetching http://virtuoso.openlinksw.com/virt_faq/: ReadTimeout
+2025-10-01 23:37:21,929 - Worker_47 - WARNING - Error fetching http://virtuoso.openlinksw.com/systems-integrator-benefits/: ReadTimeout
+2025-10-01 23:37:21,933 - Worker_18 - WARNING - Error fetching http://virtuoso.openlinksw.com/application-developer-benefits/: ReadTimeout
+2025-10-01 23:37:21,973 - Worker_7 - WARNING - Error fetching http://virtuoso.openlinksw.com/database-admin-benefits/: ReadTimeout
+2025-10-01 23:37:22,320 - Worker_39 - WARNING - Error fetching http://virtuoso.openlinksw.com/distributed-collaboration-benefits/: ReadTimeout
+2025-10-01 23:37:22,335 - Worker_32 - WARNING - Error fetching http://virtuoso.openlinksw.com/information-and-knowledge-worker-benefits/: ReadTimeout
+2025-10-01 23:37:22,399 - Worker_3 - WARNING - Error fetching http://virtuoso.openlinksw.com/middleware/: ReadTimeout
+2025-10-01 23:37:22,423 - Worker_5 - WARNING - Error fetching http://virtuoso.openlinksw.com/linked-data/: ReadTimeout
+2025-10-01 23:37:22,533 - Worker_25 - WARNING - Error fetching http://virtuoso.openlinksw.com/rdbms-engine/: ReadTimeout
+2025-10-01 23:37:22,544 - Worker_21 - WARNING - Error fetching http://virtuoso.openlinksw.com/white-papers/: ReadTimeout
+2025-10-01 23:37:22,650 - Worker_45 - WARNING - Error fetching http://virtuoso.openlinksw.com/cloud-computing-benefits/: ReadTimeout
+2025-10-01 23:37:22,826 - Worker_35 - WARNING - Error fetching http://virtuoso.openlinksw.com/whats-new/: ReadTimeout
+2025-10-01 23:37:23,023 - Worker_11 - WARNING - Error fetching http://virtuoso.openlinksw.com/articles/: ReadTimeout
+2025-10-01 23:38:26,984 - Worker_26 - WARNING - Error fetching http://112.be/en/faq-112.html: ReadTimeout
+2025-10-01 23:38:45,227 - Worker_25 - INFO - Worker_25 exiting
+2025-10-01 23:38:45,300 - Worker_28 - INFO - Worker_28 exiting
+2025-10-01 23:38:45,361 - Worker_32 - INFO - Worker_32 exiting
+2025-10-01 23:38:45,396 - Worker_22 - INFO - Worker_22 exiting
+2025-10-01 23:38:45,468 - Worker_29 - INFO - Worker_29 exiting
+2025-10-01 23:38:45,469 - Worker_3 - INFO - Worker_3 exiting
+2025-10-01 23:38:45,491 - Worker_12 - INFO - Worker_12 exiting
+2025-10-01 23:38:45,539 - Worker_46 - INFO - Worker_46 exiting
+2025-10-01 23:38:45,551 - Worker_0 - INFO - Worker_0 exiting
+2025-10-01 23:38:45,553 - Worker_2 - INFO - Worker_2 exiting
+2025-10-01 23:38:45,562 - Worker_34 - INFO - Worker_34 exiting
+2025-10-01 23:38:45,562 - Worker_13 - INFO - Worker_13 exiting
+2025-10-01 23:38:45,568 - Worker_4 - INFO - Worker_4 exiting
+2025-10-01 23:38:45,569 - Worker_24 - INFO - Worker_24 exiting
+2025-10-01 23:38:45,570 - Worker_37 - INFO - Worker_37 exiting
+2025-10-01 23:38:45,571 - Worker_11 - INFO - Worker_11 exiting
+2025-10-01 23:38:45,573 - Worker_6 - INFO - Worker_6 exiting
+2025-10-01 23:38:45,579 - Worker_33 - INFO - Worker_33 exiting
+2025-10-01 23:38:45,642 - Worker_10 - INFO - Worker_10 exiting
+2025-10-01 23:38:45,669 - Worker_40 - INFO - Worker_40 exiting
+2025-10-01 23:38:45,740 - Worker_15 - INFO - Worker_15 exiting
+2025-10-01 23:38:45,761 - Worker_16 - INFO - Worker_16 exiting
+2025-10-01 23:38:45,773 - Worker_23 - INFO - Worker_23 exiting
+2025-10-01 23:38:46,131 - Worker_45 - INFO - Worker_45 exiting
+2025-10-01 23:38:46,141 - Worker_8 - INFO - Worker_8 exiting
+2025-10-01 23:38:46,143 - Worker_27 - INFO - Worker_27 exiting
+2025-10-01 23:38:46,150 - Worker_14 - INFO - Worker_14 exiting
+2025-10-01 23:38:46,156 - Worker_30 - INFO - Worker_30 exiting
+2025-10-01 23:38:46,166 - Worker_42 - INFO - Worker_42 exiting
+2025-10-01 23:38:46,169 - Worker_9 - INFO - Worker_9 exiting
+2025-10-01 23:38:46,173 - Worker_36 - INFO - Worker_36 exiting
+2025-10-01 23:38:46,190 - Worker_35 - INFO - Worker_35 exiting
+2025-10-01 23:38:46,196 - Worker_17 - INFO - Worker_17 exiting
+2025-10-01 23:38:46,203 - Worker_20 - INFO - Worker_20 exiting
+2025-10-01 23:38:46,312 - Worker_1 - INFO - Worker_1 exiting
+2025-10-01 23:38:46,330 - Worker_38 - INFO - Worker_38 exiting
+2025-10-01 23:38:46,334 - Worker_5 - INFO - Worker_5 exiting
+2025-10-01 23:38:46,341 - Worker_44 - INFO - Worker_44 exiting
+2025-10-01 23:38:46,351 - Worker_19 - INFO - Worker_19 exiting
+2025-10-01 23:38:46,354 - Worker_31 - INFO - Worker_31 exiting
+2025-10-01 23:38:46,468 - Worker_39 - INFO - Worker_39 exiting
+2025-10-01 23:38:46,480 - Worker_7 - INFO - Worker_7 exiting
+2025-10-01 23:38:46,486 - Worker_26 - INFO - Worker_26 exiting
+2025-10-01 23:38:46,535 - Worker_18 - INFO - Worker_18 exiting
+2025-10-01 23:38:46,551 - Worker_47 - INFO - Worker_47 exiting
+2025-10-01 23:38:52,806 - Worker_21 - INFO - Worker_21 exiting
+2025-10-01 23:48:45,228 - MainThread - INFO - Starting crawl for query: 'google' with 36 threads.
+2025-10-01 23:48:45,229 - MainThread - INFO - Added 5 initial URLs to queue
+2025-10-01 23:48:45,229 - Worker_0 - INFO - Worker_0 started
+2025-10-01 23:48:45,230 - Worker_1 - INFO - Worker_1 started
+2025-10-01 23:48:45,231 - Worker_2 - INFO - Worker_2 started
+2025-10-01 23:48:45,232 - Worker_3 - INFO - Worker_3 started
+2025-10-01 23:48:45,232 - Worker_4 - INFO - Worker_4 started
+2025-10-01 23:48:45,233 - Worker_5 - INFO - Worker_5 started
+2025-10-01 23:48:45,233 - Worker_6 - INFO - Worker_6 started
+2025-10-01 23:48:45,233 - Worker_7 - INFO - Worker_7 started
+2025-10-01 23:48:45,233 - Worker_8 - INFO - Worker_8 started
+2025-10-01 23:48:45,234 - Worker_9 - INFO - Worker_9 started
+2025-10-01 23:48:45,234 - Worker_10 - INFO - Worker_10 started
+2025-10-01 23:48:45,234 - Worker_11 - INFO - Worker_11 started
+2025-10-01 23:48:45,235 - Worker_12 - INFO - Worker_12 started
+2025-10-01 23:48:45,235 - Worker_13 - INFO - Worker_13 started
+2025-10-01 23:48:45,235 - Worker_14 - INFO - Worker_14 started
+2025-10-01 23:48:45,235 - Worker_15 - INFO - Worker_15 started
+2025-10-01 23:48:45,235 - Worker_16 - INFO - Worker_16 started
+2025-10-01 23:48:45,236 - Worker_17 - INFO - Worker_17 started
+2025-10-01 23:48:45,236 - Worker_18 - INFO - Worker_18 started
+2025-10-01 23:48:45,236 - Worker_19 - INFO - Worker_19 started
+2025-10-01 23:48:45,236 - Worker_20 - INFO - Worker_20 started
+2025-10-01 23:48:45,236 - Worker_21 - INFO - Worker_21 started
+2025-10-01 23:48:45,236 - Worker_22 - INFO - Worker_22 started
+2025-10-01 23:48:45,236 - Worker_23 - INFO - Worker_23 started
+2025-10-01 23:48:45,237 - Worker_24 - INFO - Worker_24 started
+2025-10-01 23:48:45,237 - Worker_25 - INFO - Worker_25 started
+2025-10-01 23:48:45,237 - Worker_26 - INFO - Worker_26 started
+2025-10-01 23:48:45,237 - Worker_27 - INFO - Worker_27 started
+2025-10-01 23:48:45,238 - Worker_28 - INFO - Worker_28 started
+2025-10-01 23:48:45,238 - Worker_29 - INFO - Worker_29 started
+2025-10-01 23:48:45,238 - Worker_30 - INFO - Worker_30 started
+2025-10-01 23:48:45,239 - Worker_31 - INFO - Worker_31 started
+2025-10-01 23:48:45,239 - Worker_32 - INFO - Worker_32 started
+2025-10-01 23:48:45,239 - Worker_33 - INFO - Worker_33 started
+2025-10-01 23:48:45,239 - Worker_34 - INFO - Worker_34 started
+2025-10-01 23:48:45,240 - Worker_35 - INFO - Worker_35 started
+2025-10-01 23:48:46,246 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:47,247 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:48,247 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:49,226 - Worker_24 - WARNING - Error fetching http://wcag.ie: SSLError
+2025-10-01 23:48:49,248 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:50,250 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:51,260 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:52,269 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:53,269 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:54,292 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:55,311 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:56,206 - Worker_7 - WARNING - Error fetching https://www.washingtonpost.com/: ReadTimeout
+2025-10-01 23:48:56,311 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:57,315 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:58,315 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:48:59,317 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:00,321 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:01,321 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:01,350 - Worker_18 - WARNING - Error fetching https://www.nhk.or.jp/strl/english/: ReadTimeout
+2025-10-01 23:49:02,323 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:03,323 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:04,324 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:04,772 - Worker_11 - WARNING - Error fetching http://intopia.digital/: ReadTimeout
+2025-10-01 23:49:05,363 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:06,375 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:07,385 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:08,232 - Worker_10 - WARNING - Error fetching https://transferks.kansasregents.org: SSLError
+2025-10-01 23:49:08,392 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:09,392 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:10,392 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:11,400 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:12,413 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:13,428 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:13,512 - Worker_34 - WARNING - Error fetching http://hdl.handle.net/10609/5222: ReadTimeout
+2025-10-01 23:49:14,434 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:15,466 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:15,562 - Worker_10 - WARNING - Error fetching https://purl.org/ctdl/vocabs/assessMethod/Performance: ReadTimeout
+2025-10-01 23:49:16,470 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:17,494 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:18,500 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:19,350 - Worker_23 - WARNING - Error fetching https://www.adventuresbydisney.com/: ReadTimeout
+2025-10-01 23:49:19,527 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:20,583 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:21,586 - MainThread - ERROR - Thread raised exception: 
+2025-10-01 23:49:21,629 - Worker_10 - INFO - Worker_10 exiting
+2025-10-01 23:49:21,814 - Worker_14 - INFO - Worker_14 exiting
+2025-10-01 23:49:21,821 - Worker_1 - INFO - Worker_1 exiting
+2025-10-01 23:49:21,870 - Worker_4 - INFO - Worker_4 exiting
+2025-10-01 23:49:21,871 - Worker_25 - INFO - Worker_25 exiting
+2025-10-01 23:49:21,955 - Worker_5 - INFO - Worker_5 exiting
+2025-10-01 23:49:21,967 - Worker_16 - INFO - Worker_16 exiting
+2025-10-01 23:49:22,043 - Worker_11 - INFO - Worker_11 exiting
+2025-10-01 23:49:22,051 - Worker_35 - INFO - Worker_35 exiting
+2025-10-01 23:49:22,080 - Worker_28 - INFO - Worker_28 exiting
+2025-10-01 23:49:22,102 - Worker_13 - INFO - Worker_13 exiting
+2025-10-01 23:49:22,104 - Worker_26 - INFO - Worker_26 exiting
+2025-10-01 23:49:22,122 - Worker_24 - INFO - Worker_24 exiting
+2025-10-01 23:49:22,330 - Worker_23 - INFO - Worker_23 exiting
+2025-10-01 23:49:22,342 - Worker_18 - INFO - Worker_18 exiting
+2025-10-01 23:49:22,369 - Worker_27 - INFO - Worker_27 exiting
+2025-10-01 23:49:22,380 - Worker_29 - INFO - Worker_29 exiting
+2025-10-01 23:49:22,382 - Worker_19 - INFO - Worker_19 exiting
+2025-10-01 23:49:22,420 - Worker_22 - INFO - Worker_22 exiting
+2025-10-01 23:49:22,427 - Worker_31 - INFO - Worker_31 exiting
+2025-10-01 23:49:22,496 - Worker_15 - INFO - Worker_15 exiting
+2025-10-01 23:49:22,715 - Worker_32 - INFO - Worker_32 exiting
+2025-10-01 23:49:22,886 - Worker_0 - INFO - Worker_0 exiting
+2025-10-01 23:49:23,458 - Worker_8 - INFO - Worker_8 exiting
+2025-10-01 23:49:23,498 - Worker_12 - INFO - Worker_12 exiting
+2025-10-01 23:49:23,634 - Worker_34 - INFO - Worker_34 exiting
+2025-10-01 23:49:23,658 - Worker_2 - INFO - Worker_2 exiting
+2025-10-01 23:49:23,684 - Worker_33 - INFO - Worker_33 exiting
+2025-10-01 23:49:23,711 - Worker_7 - INFO - Worker_7 exiting
+2025-10-01 23:49:23,718 - Worker_21 - INFO - Worker_21 exiting
+2025-10-01 23:49:23,725 - Worker_6 - INFO - Worker_6 exiting
+2025-10-01 23:49:24,512 - Worker_9 - INFO - Worker_9 exiting
+2025-10-01 23:49:24,605 - Worker_20 - INFO - Worker_20 exiting
+2025-10-01 23:49:24,744 - Worker_17 - INFO - Worker_17 exiting
+2025-10-01 23:49:24,768 - Worker_3 - INFO - Worker_3 exiting
+2025-10-01 23:49:24,783 - Worker_30 - INFO - Worker_30 exiting
+2025-10-01 23:51:44,518 - MainThread - INFO - Starting crawl for query: 'hello' with 36 threads.
+2025-10-01 23:51:44,519 - MainThread - INFO - Added 5 initial URLs to queue
+2025-10-01 23:51:44,519 - Worker_0 - INFO - Worker_0 started
+2025-10-01 23:51:44,520 - Worker_1 - INFO - Worker_1 started
+2025-10-01 23:51:44,520 - Worker_2 - INFO - Worker_2 started
+2025-10-01 23:51:44,521 - Worker_3 - INFO - Worker_3 started
+2025-10-01 23:51:44,522 - Worker_4 - INFO - Worker_4 started
+2025-10-01 23:51:44,522 - Worker_5 - INFO - Worker_5 started
+2025-10-01 23:51:44,522 - Worker_6 - INFO - Worker_6 started
+2025-10-01 23:51:44,522 - Worker_7 - INFO - Worker_7 started
+2025-10-01 23:51:44,522 - Worker_8 - INFO - Worker_8 started
+2025-10-01 23:51:44,523 - Worker_9 - INFO - Worker_9 started
+2025-10-01 23:51:44,523 - Worker_10 - INFO - Worker_10 started
+2025-10-01 23:51:44,523 - Worker_11 - INFO - Worker_11 started
+2025-10-01 23:51:44,523 - Worker_12 - INFO - Worker_12 started
+2025-10-01 23:51:44,523 - Worker_13 - INFO - Worker_13 started
+2025-10-01 23:51:44,524 - Worker_14 - INFO - Worker_14 started
+2025-10-01 23:51:44,524 - Worker_15 - INFO - Worker_15 started
+2025-10-01 23:51:44,524 - Worker_16 - INFO - Worker_16 started
+2025-10-01 23:51:44,524 - Worker_17 - INFO - Worker_17 started
+2025-10-01 23:51:44,525 - Worker_18 - INFO - Worker_18 started
+2025-10-01 23:51:44,525 - Worker_19 - INFO - Worker_19 started
+2025-10-01 23:51:44,525 - Worker_20 - INFO - Worker_20 started
+2025-10-01 23:51:44,525 - Worker_21 - INFO - Worker_21 started
+2025-10-01 23:51:44,525 - Worker_22 - INFO - Worker_22 started
+2025-10-01 23:51:44,526 - Worker_23 - INFO - Worker_23 started
+2025-10-01 23:51:44,526 - Worker_24 - INFO - Worker_24 started
+2025-10-01 23:51:44,526 - Worker_25 - INFO - Worker_25 started
+2025-10-01 23:51:44,526 - Worker_26 - INFO - Worker_26 started
+2025-10-01 23:51:44,526 - Worker_27 - INFO - Worker_27 started
+2025-10-01 23:51:44,527 - Worker_28 - INFO - Worker_28 started
+2025-10-01 23:51:44,527 - Worker_29 - INFO - Worker_29 started
+2025-10-01 23:51:44,527 - Worker_30 - INFO - Worker_30 started
+2025-10-01 23:51:44,528 - Worker_31 - INFO - Worker_31 started
+2025-10-01 23:51:44,528 - Worker_32 - INFO - Worker_32 started
+2025-10-01 23:51:44,528 - Worker_33 - INFO - Worker_33 started
+2025-10-01 23:51:44,528 - Worker_34 - INFO - Worker_34 started
+2025-10-01 23:51:44,529 - Worker_35 - INFO - Worker_35 started
+2025-10-01 23:51:51,905 - Worker_7 - WARNING - Error fetching https://www.washingtonpost.com/: ReadTimeout
+2025-10-01 23:51:54,524 - Worker_33 - WARNING - Error fetching https://www.nhk.or.jp/strl/english/: ReadTimeout
+2025-10-01 23:52:03,279 - Worker_8 - WARNING - Error fetching http://wcag.ie: SSLError
+2025-10-01 23:52:13,403 - Worker_11 - WARNING - Error fetching https://transferks.kansasregents.org: SSLError
+2025-10-01 23:52:18,717 - Worker_24 - WARNING - Error fetching http://hdl.handle.net/10609/5222: ReadTimeout
+2025-10-01 23:53:19,024 - Worker_12 - WARNING - Error fetching https://univ-cotedazur.fr/centre-hospitalier-universtaire-de-nice: SSLError
+2025-10-01 23:53:27,134 - Worker_15 - WARNING - Error fetching http://virtuoso.openlinksw.com/database-admin-benefits/: ReadTimeout
+2025-10-01 23:53:27,139 - Worker_7 - WARNING - Error fetching http://virtuoso.openlinksw.com/linked-data/: ReadTimeout
+2025-10-01 23:53:27,333 - Worker_18 - WARNING - Error fetching http://virtuoso.openlinksw.com/white-papers/: ReadTimeout
+2025-10-01 23:53:27,345 - Worker_29 - WARNING - Error fetching http://virtuoso.openlinksw.com/rdbms-engine/: ReadTimeout
+2025-10-01 23:53:27,490 - Worker_19 - WARNING - Error fetching http://virtuoso.openlinksw.com/information-and-knowledge-worker-benefits/: ReadTimeout
+2025-10-01 23:53:27,520 - Worker_6 - WARNING - Error fetching http://virtuoso.openlinksw.com/cloud-computing-benefits/: ReadTimeout
+2025-10-01 23:53:27,532 - Worker_23 - WARNING - Error fetching http://virtuoso.openlinksw.com/middleware/: ReadTimeout
+2025-10-01 23:53:27,789 - Worker_11 - WARNING - Error fetching http://virtuoso.openlinksw.com/whats-new/: ReadTimeout
+2025-10-01 23:53:27,842 - Worker_0 - WARNING - Error fetching http://virtuoso.openlinksw.com/application-developer-benefits/: ReadTimeout
+2025-10-01 23:53:27,855 - Worker_4 - WARNING - Error fetching http://virtuoso.openlinksw.com/virt_faq/: ReadTimeout
+2025-10-01 23:53:27,895 - Worker_32 - WARNING - Error fetching http://virtuoso.openlinksw.com/web-application-server/: ReadTimeout
+2025-10-01 23:53:27,907 - Worker_21 - WARNING - Error fetching http://virtuoso.openlinksw.com/distributed-collaboration-benefits/: ReadTimeout
+2025-10-01 23:53:27,927 - Worker_14 - WARNING - Error fetching http://virtuoso.openlinksw.com/articles/: ReadTimeout
+2025-10-01 23:53:27,937 - Worker_5 - WARNING - Error fetching http://virtuoso.openlinksw.com/systems-integrator-benefits/: ReadTimeout
+2025-10-01 23:53:31,015 - Worker_31 - WARNING - Error fetching https://www.salesforcestore.com/: ReadTimeout
+2025-10-01 23:53:56,976 - Worker_22 - WARNING - Error fetching https://library.ohio.gov/services-for-libraries/library-programs-development/critical-conversations/: TooManyRedirects
+2025-10-01 23:54:53,267 - Worker_14 - INFO - Worker_14 exiting
+2025-10-01 23:54:53,336 - Worker_24 - INFO - Worker_24 exiting
+2025-10-01 23:54:53,352 - Worker_33 - INFO - Worker_33 exiting
+2025-10-01 23:54:53,379 - Worker_18 - INFO - Worker_18 exiting
+2025-10-01 23:54:53,409 - Worker_22 - INFO - Worker_22 exiting
+2025-10-01 23:54:53,410 - Worker_32 - INFO - Worker_32 exiting
+2025-10-01 23:54:53,411 - Worker_6 - INFO - Worker_6 exiting
+2025-10-01 23:54:53,413 - Worker_19 - INFO - Worker_19 exiting
+2025-10-01 23:54:53,413 - Worker_29 - INFO - Worker_29 exiting
+2025-10-01 23:54:53,419 - Worker_30 - INFO - Worker_30 exiting
+2025-10-01 23:54:53,435 - Worker_34 - INFO - Worker_34 exiting
+2025-10-01 23:54:53,462 - Worker_13 - INFO - Worker_13 exiting
+2025-10-01 23:54:53,506 - Worker_7 - INFO - Worker_7 exiting
+2025-10-01 23:54:53,508 - Worker_0 - INFO - Worker_0 exiting
+2025-10-01 23:54:53,549 - Worker_4 - INFO - Worker_4 exiting
+2025-10-01 23:54:53,549 - Worker_28 - INFO - Worker_28 exiting
+2025-10-01 23:54:53,564 - Worker_11 - INFO - Worker_11 exiting
+2025-10-01 23:54:53,565 - Worker_27 - INFO - Worker_27 exiting
+2025-10-01 23:54:53,568 - Worker_3 - INFO - Worker_3 exiting
+2025-10-01 23:54:53,589 - Worker_1 - INFO - Worker_1 exiting
+2025-10-01 23:54:53,599 - Worker_12 - INFO - Worker_12 exiting
+2025-10-01 23:54:53,639 - Worker_35 - INFO - Worker_35 exiting
+2025-10-01 23:54:53,644 - Worker_31 - INFO - Worker_31 exiting
+2025-10-01 23:54:53,679 - Worker_20 - INFO - Worker_20 exiting
+2025-10-01 23:54:53,952 - Worker_2 - INFO - Worker_2 exiting
+2025-10-01 23:54:53,981 - Worker_9 - INFO - Worker_9 exiting
+2025-10-01 23:54:54,079 - Worker_5 - INFO - Worker_5 exiting
+2025-10-01 23:54:54,081 - Worker_16 - INFO - Worker_16 exiting
+2025-10-01 23:54:54,256 - Worker_26 - INFO - Worker_26 exiting
+2025-10-01 23:54:54,363 - Worker_25 - INFO - Worker_25 exiting
+2025-10-01 23:54:54,368 - Worker_21 - INFO - Worker_21 exiting
+2025-10-01 23:54:54,406 - Worker_15 - INFO - Worker_15 exiting
+2025-10-01 23:54:54,473 - Worker_23 - INFO - Worker_23 exiting
+2025-10-01 23:54:55,204 - Worker_17 - INFO - Worker_17 exiting
+2025-10-01 23:57:38,968 - MainThread - INFO - Starting crawl for query: 'hello' with 48 threads.
+2025-10-01 23:57:38,969 - MainThread - INFO - Added 5 initial URLs to queue
+2025-10-01 23:57:38,969 - Worker_0 - INFO - Worker_0 started
+2025-10-01 23:57:38,970 - Worker_1 - INFO - Worker_1 started
+2025-10-01 23:57:38,971 - Worker_2 - INFO - Worker_2 started
+2025-10-01 23:57:38,971 - Worker_3 - INFO - Worker_3 started
+2025-10-01 23:57:38,972 - Worker_4 - INFO - Worker_4 started
+2025-10-01 23:57:38,973 - Worker_5 - INFO - Worker_5 started
+2025-10-01 23:57:38,973 - Worker_6 - INFO - Worker_6 started
+2025-10-01 23:57:38,973 - Worker_7 - INFO - Worker_7 started
+2025-10-01 23:57:38,973 - Worker_8 - INFO - Worker_8 started
+2025-10-01 23:57:38,973 - Worker_9 - INFO - Worker_9 started
+2025-10-01 23:57:38,973 - Worker_10 - INFO - Worker_10 started
+2025-10-01 23:57:38,974 - Worker_11 - INFO - Worker_11 started
+2025-10-01 23:57:38,974 - Worker_12 - INFO - Worker_12 started
+2025-10-01 23:57:38,974 - Worker_13 - INFO - Worker_13 started
+2025-10-01 23:57:38,974 - Worker_14 - INFO - Worker_14 started
+2025-10-01 23:57:38,974 - Worker_15 - INFO - Worker_15 started
+2025-10-01 23:57:38,975 - Worker_16 - INFO - Worker_16 started
+2025-10-01 23:57:38,975 - Worker_17 - INFO - Worker_17 started
+2025-10-01 23:57:38,975 - Worker_18 - INFO - Worker_18 started
+2025-10-01 23:57:38,975 - Worker_19 - INFO - Worker_19 started
+2025-10-01 23:57:38,975 - Worker_20 - INFO - Worker_20 started
+2025-10-01 23:57:38,975 - Worker_21 - INFO - Worker_21 started
+2025-10-01 23:57:38,975 - Worker_22 - INFO - Worker_22 started
+2025-10-01 23:57:38,975 - Worker_23 - INFO - Worker_23 started
+2025-10-01 23:57:38,975 - Worker_24 - INFO - Worker_24 started
+2025-10-01 23:57:38,975 - Worker_25 - INFO - Worker_25 started
+2025-10-01 23:57:38,975 - Worker_26 - INFO - Worker_26 started
+2025-10-01 23:57:38,975 - Worker_27 - INFO - Worker_27 started
+2025-10-01 23:57:38,975 - Worker_28 - INFO - Worker_28 started
+2025-10-01 23:57:38,976 - Worker_29 - INFO - Worker_29 started
+2025-10-01 23:57:38,976 - Worker_30 - INFO - Worker_30 started
+2025-10-01 23:57:38,976 - Worker_31 - INFO - Worker_31 started
+2025-10-01 23:57:38,976 - Worker_32 - INFO - Worker_32 started
+2025-10-01 23:57:38,976 - Worker_33 - INFO - Worker_33 started
+2025-10-01 23:57:38,976 - Worker_34 - INFO - Worker_34 started
+2025-10-01 23:57:38,976 - Worker_35 - INFO - Worker_35 started
+2025-10-01 23:57:38,977 - Worker_36 - INFO - Worker_36 started
+2025-10-01 23:57:38,977 - Worker_37 - INFO - Worker_37 started
+2025-10-01 23:57:38,977 - Worker_38 - INFO - Worker_38 started
+2025-10-01 23:57:38,978 - Worker_41 - INFO - Worker_41 started
+2025-10-01 23:57:38,978 - Worker_40 - INFO - Worker_40 started
+2025-10-01 23:57:38,977 - Worker_39 - INFO - Worker_39 started
+2025-10-01 23:57:38,978 - Worker_42 - INFO - Worker_42 started
+2025-10-01 23:57:38,978 - Worker_43 - INFO - Worker_43 started
+2025-10-01 23:57:38,978 - Worker_44 - INFO - Worker_44 started
+2025-10-01 23:57:38,978 - Worker_45 - INFO - Worker_45 started
+2025-10-01 23:57:38,979 - Worker_46 - INFO - Worker_46 started
+2025-10-01 23:57:38,979 - Worker_47 - INFO - Worker_47 started
+2025-10-01 23:57:44,554 - Worker_15 - WARNING - Error fetching http://wcag.ie: SSLError
+2025-10-01 23:57:50,146 - Worker_26 - WARNING - Error fetching https://www.washingtonpost.com/: ReadTimeout
+2025-10-01 23:57:52,850 - Worker_35 - WARNING - Error fetching https://www.nhk.or.jp/strl/english/: ReadTimeout
+2025-10-01 23:57:55,059 - Worker_47 - INFO - Worker_47 exiting
+2025-10-01 23:57:55,065 - Worker_6 - INFO - Worker_6 exiting
+2025-10-01 23:57:55,072 - Worker_12 - INFO - Worker_12 exiting
+2025-10-01 23:57:55,106 - Worker_31 - INFO - Worker_31 exiting
+2025-10-01 23:57:55,107 - Worker_23 - INFO - Worker_23 exiting
+2025-10-01 23:57:55,113 - Worker_41 - INFO - Worker_41 exiting
+2025-10-01 23:57:55,166 - Worker_3 - INFO - Worker_3 exiting
+2025-10-01 23:57:55,202 - Worker_33 - INFO - Worker_33 exiting
+2025-10-01 23:57:55,210 - Worker_28 - INFO - Worker_28 exiting
+2025-10-01 23:57:55,211 - MainThread - INFO - Max pages reached, signaling shutdown...
+2025-10-01 23:57:55,212 - MainThread - INFO - Waiting for threads to complete...
+2025-10-01 23:57:55,219 - Worker_30 - INFO - Worker_30 exiting
+2025-10-01 23:57:55,267 - Worker_32 - INFO - Worker_32 exiting
+2025-10-01 23:57:55,289 - Worker_17 - INFO - Worker_17 exiting
+2025-10-01 23:57:55,347 - Worker_26 - INFO - Worker_26 exiting
+2025-10-01 23:57:55,408 - Worker_7 - INFO - Worker_7 exiting
+2025-10-01 23:57:55,453 - Worker_4 - INFO - Worker_4 exiting
+2025-10-01 23:57:55,455 - Worker_0 - INFO - Worker_0 exiting
+2025-10-01 23:57:55,456 - Worker_11 - INFO - Worker_11 exiting
+2025-10-01 23:57:55,517 - Worker_39 - INFO - Worker_39 exiting
+2025-10-01 23:57:55,521 - Worker_16 - INFO - Worker_16 exiting
+2025-10-01 23:57:55,548 - Worker_25 - INFO - Worker_25 exiting
+2025-10-01 23:57:55,548 - Worker_10 - INFO - Worker_10 exiting
+2025-10-01 23:57:55,567 - Worker_9 - INFO - Worker_9 exiting
+2025-10-01 23:57:55,582 - Worker_46 - INFO - Worker_46 exiting
+2025-10-01 23:57:55,680 - Worker_1 - INFO - Worker_1 exiting
+2025-10-01 23:57:55,683 - Worker_19 - INFO - Worker_19 exiting
+2025-10-01 23:57:55,713 - Worker_22 - INFO - Worker_22 exiting
+2025-10-01 23:57:55,723 - Worker_13 - INFO - Worker_13 exiting
+2025-10-01 23:57:55,736 - Worker_15 - INFO - Worker_15 exiting
+2025-10-01 23:57:55,809 - Worker_44 - INFO - Worker_44 exiting
+2025-10-01 23:57:55,876 - Worker_38 - INFO - Worker_38 exiting
+2025-10-01 23:57:55,938 - Worker_40 - INFO - Worker_40 exiting
+2025-10-01 23:57:55,958 - Worker_37 - INFO - Worker_37 exiting
+2025-10-01 23:57:56,054 - Worker_2 - INFO - Worker_2 exiting
+2025-10-01 23:57:56,122 - Worker_14 - INFO - Worker_14 exiting
+2025-10-01 23:57:56,162 - Worker_42 - INFO - Worker_42 exiting
+2025-10-01 23:57:56,162 - Worker_5 - INFO - Worker_5 exiting
+2025-10-01 23:57:56,349 - Worker_35 - INFO - Worker_35 exiting
+2025-10-01 23:57:56,413 - Worker_34 - INFO - Worker_34 exiting
+2025-10-01 23:57:56,426 - Worker_45 - INFO - Worker_45 exiting
+2025-10-01 23:57:56,464 - Worker_20 - INFO - Worker_20 exiting
+2025-10-01 23:57:56,479 - Worker_43 - INFO - Worker_43 exiting
+2025-10-01 23:57:56,596 - Worker_24 - INFO - Worker_24 exiting
+2025-10-01 23:57:56,737 - Worker_36 - INFO - Worker_36 exiting
+2025-10-01 23:57:56,775 - Worker_29 - INFO - Worker_29 exiting
+2025-10-01 23:57:57,442 - Worker_27 - INFO - Worker_27 exiting
+2025-10-01 23:58:00,385 - Worker_21 - WARNING - Error fetching http://intopia.digital/: ReadTimeout
+2025-10-01 23:58:00,385 - Worker_21 - INFO - Worker_21 exiting
+2025-10-01 23:58:07,855 - Worker_18 - INFO - Worker_18 exiting
+2025-10-02 00:00:22,903 - MainThread - INFO - Starting crawl for query: 'hello' with 48 threads.
+2025-10-02 00:00:22,904 - MainThread - INFO - Added 5 initial URLs to queue
+2025-10-02 00:00:22,904 - Worker_0 - INFO - Worker_0 started
+2025-10-02 00:00:22,905 - Worker_1 - INFO - Worker_1 started
+2025-10-02 00:00:22,906 - Worker_2 - INFO - Worker_2 started
+2025-10-02 00:00:22,906 - Worker_3 - INFO - Worker_3 started
+2025-10-02 00:00:22,907 - Worker_4 - INFO - Worker_4 started
+2025-10-02 00:00:22,907 - Worker_5 - INFO - Worker_5 started
+2025-10-02 00:00:22,908 - Worker_6 - INFO - Worker_6 started
+2025-10-02 00:00:22,908 - Worker_7 - INFO - Worker_7 started
+2025-10-02 00:00:22,908 - Worker_8 - INFO - Worker_8 started
+2025-10-02 00:00:22,908 - Worker_9 - INFO - Worker_9 started
+2025-10-02 00:00:22,909 - Worker_10 - INFO - Worker_10 started
+2025-10-02 00:00:22,909 - Worker_11 - INFO - Worker_11 started
+2025-10-02 00:00:22,909 - Worker_12 - INFO - Worker_12 started
+2025-10-02 00:00:22,909 - Worker_13 - INFO - Worker_13 started
+2025-10-02 00:00:22,909 - Worker_14 - INFO - Worker_14 started
+2025-10-02 00:00:22,910 - Worker_16 - INFO - Worker_16 started
+2025-10-02 00:00:22,910 - Worker_15 - INFO - Worker_15 started
+2025-10-02 00:00:22,911 - Worker_17 - INFO - Worker_17 started
+2025-10-02 00:00:22,911 - Worker_18 - INFO - Worker_18 started
+2025-10-02 00:00:22,911 - Worker_19 - INFO - Worker_19 started
+2025-10-02 00:00:22,912 - Worker_20 - INFO - Worker_20 started
+2025-10-02 00:00:22,912 - Worker_21 - INFO - Worker_21 started
+2025-10-02 00:00:22,912 - Worker_22 - INFO - Worker_22 started
+2025-10-02 00:00:22,912 - Worker_23 - INFO - Worker_23 started
+2025-10-02 00:00:22,913 - Worker_24 - INFO - Worker_24 started
+2025-10-02 00:00:22,913 - Worker_25 - INFO - Worker_25 started
+2025-10-02 00:00:22,913 - Worker_26 - INFO - Worker_26 started
+2025-10-02 00:00:22,914 - Worker_27 - INFO - Worker_27 started
+2025-10-02 00:00:22,914 - Worker_28 - INFO - Worker_28 started
+2025-10-02 00:00:22,914 - Worker_29 - INFO - Worker_29 started
+2025-10-02 00:00:22,914 - Worker_30 - INFO - Worker_30 started
+2025-10-02 00:00:22,915 - Worker_31 - INFO - Worker_31 started
+2025-10-02 00:00:22,915 - Worker_32 - INFO - Worker_32 started
+2025-10-02 00:00:22,916 - Worker_33 - INFO - Worker_33 started
+2025-10-02 00:00:22,916 - Worker_34 - INFO - Worker_34 started
+2025-10-02 00:00:22,916 - Worker_35 - INFO - Worker_35 started
+2025-10-02 00:00:22,916 - Worker_36 - INFO - Worker_36 started
+2025-10-02 00:00:22,916 - Worker_37 - INFO - Worker_37 started
+2025-10-02 00:00:22,917 - Worker_38 - INFO - Worker_38 started
+2025-10-02 00:00:22,917 - Worker_39 - INFO - Worker_39 started
+2025-10-02 00:00:22,917 - Worker_40 - INFO - Worker_40 started
+2025-10-02 00:00:22,917 - Worker_41 - INFO - Worker_41 started
+2025-10-02 00:00:22,918 - Worker_42 - INFO - Worker_42 started
+2025-10-02 00:00:22,918 - Worker_43 - INFO - Worker_43 started
+2025-10-02 00:00:22,918 - Worker_44 - INFO - Worker_44 started
+2025-10-02 00:00:22,918 - Worker_45 - INFO - Worker_45 started
+2025-10-02 00:00:22,918 - Worker_46 - INFO - Worker_46 started
+2025-10-02 00:00:22,919 - Worker_47 - INFO - Worker_47 started
+2025-10-02 00:00:38,262 - Worker_31 - WARNING - Error fetching http://www.leidenuniv.nl/: ConnectionError
+2025-10-02 00:00:43,045 - Worker_13 - WARNING - Error fetching http://www.sztaki.hu: ReadTimeout
+2025-10-02 00:00:56,941 - Worker_20 - WARNING - Error fetching https://genderanalysis.net/2017/06/identifying-with-a-gender-vs-reaffirming-gender-stereotypes/: ReadTimeout
+2025-10-02 00:00:58,278 - Worker_31 - WARNING - Error fetching http://genderanalysis.net/2014/12/transition-as-gender-freedom-gender-analysis-03/: ReadTimeout
+2025-10-02 00:01:03,816 - Worker_17 - WARNING - Error fetching https://univ-cotedazur.fr/centre-hospitalier-universtaire-de-nice: SSLError
+2025-10-02 00:01:14,950 - Worker_33 - WARNING - Error fetching https://www.washingtonpost.com/news/in-theory/wp/2015/10/12/affirmative-consent-a-primer/: ConnectionError
+2025-10-02 00:01:15,068 - Worker_31 - WARNING - Error fetching https://www.washingtonpost.com/politics/2021/03/16/dangerous-game-tucker-carlson-is-playing-vaccines/: ReadTimeout
+2025-10-02 00:01:15,828 - Worker_46 - WARNING - Error fetching https://www.washingtonpost.com/politics/2023/08/22/republicans-vaccines-polls: ReadTimeout
+2025-10-02 00:01:23,069 - Worker_5 - WARNING - Error fetching https://library.ohio.gov/services-for-libraries/library-programs-development/critical-conversations/: TooManyRedirects
+2025-10-02 00:01:38,246 - Worker_18 - WARNING - Error fetching http://smartcities4all.org/: ReadTimeout
+2025-10-02 00:01:48,711 - Worker_23 - WARNING - Error fetching http://www.knowledgeunlatched.org/: SSLError
+2025-10-02 00:01:48,716 - Worker_40 - WARNING - Error fetching http://www.wolfram.com/: ConnectionError
+2025-10-02 00:01:49,195 - Worker_29 - WARNING - Error fetching http://www.touchthefuture.us/: ReadTimeout
+2025-10-02 00:01:50,191 - Worker_18 - WARNING - Error fetching https://s3.goeshow.com/atia/orlando/2026/new_session_directory.cfm: ReadTimeout
+2025-10-02 00:02:06,747 - Worker_40 - WARNING - Error fetching http://wcag.ie: SSLError
+2025-10-02 00:02:13,734 - Worker_37 - WARNING - Error fetching https://www.nhk.or.jp/strl/english/: ReadTimeout
+2025-10-02 00:02:20,033 - Worker_31 - WARNING - Error fetching https://transferks.kansasregents.org: SSLError
+2025-10-02 00:02:28,133 - Worker_11 - WARNING - Error fetching http://hdl.handle.net/10609/5222: ReadTimeout
+2025-10-02 00:03:11,972 - Worker_25 - WARNING - Error fetching http://virtuoso.openlinksw.com/virt_faq/: ReadTimeout
+2025-10-02 00:03:11,988 - Worker_23 - WARNING - Error fetching http://virtuoso.openlinksw.com/systems-integrator-benefits/: ReadTimeout
+2025-10-02 00:03:12,139 - Worker_17 - WARNING - Error fetching http://virtuoso.openlinksw.com/web-application-server/: ReadTimeout
+2025-10-02 00:03:12,168 - Worker_3 - WARNING - Error fetching http://virtuoso.openlinksw.com/whats-new/: ReadTimeout
+2025-10-02 00:03:12,277 - Worker_33 - WARNING - Error fetching http://virtuoso.openlinksw.com/rdbms-engine/: ReadTimeout
+2025-10-02 00:03:12,484 - Worker_22 - WARNING - Error fetching http://virtuoso.openlinksw.com/articles/: ReadTimeout
+2025-10-02 00:03:12,691 - Worker_1 - WARNING - Error fetching http://virtuoso.openlinksw.com/white-papers/: ReadTimeout
+2025-10-02 00:03:12,782 - Worker_4 - WARNING - Error fetching http://virtuoso.openlinksw.com/database-admin-benefits/: ReadTimeout
+2025-10-02 00:03:13,024 - Worker_24 - WARNING - Error fetching http://virtuoso.openlinksw.com/distributed-collaboration-benefits/: ReadTimeout
+2025-10-02 00:03:13,058 - Worker_30 - WARNING - Error fetching http://virtuoso.openlinksw.com/middleware/: ReadTimeout
+2025-10-02 00:03:13,096 - Worker_6 - WARNING - Error fetching http://virtuoso.openlinksw.com/information-and-knowledge-worker-benefits/: ReadTimeout
+2025-10-02 00:03:13,131 - Worker_19 - WARNING - Error fetching http://virtuoso.openlinksw.com/linked-data/: ReadTimeout
+2025-10-02 00:03:13,148 - Worker_43 - WARNING - Error fetching http://virtuoso.openlinksw.com/application-developer-benefits/: ReadTimeout
+2025-10-02 00:03:13,150 - Worker_45 - WARNING - Error fetching http://virtuoso.openlinksw.com/cloud-computing-benefits/: ReadTimeout
+2025-10-02 00:04:01,342 - Worker_29 - INFO - Worker_29 exiting
+2025-10-02 00:04:01,344 - MainThread - INFO - Max pages reached, signaling shutdown...
+2025-10-02 00:04:01,347 - Worker_36 - INFO - Worker_36 exiting
+2025-10-02 00:04:01,347 - Worker_33 - INFO - Worker_33 exiting
+2025-10-02 00:04:01,362 - Worker_41 - INFO - Worker_41 exiting
+2025-10-02 00:04:01,364 - Worker_30 - INFO - Worker_30 exiting
+2025-10-02 00:04:01,364 - Worker_40 - INFO - Worker_40 exiting
+2025-10-02 00:04:01,370 - Worker_18 - INFO - Worker_18 exiting
+2025-10-02 00:04:01,388 - MainThread - INFO - Waiting for threads to complete...
+2025-10-02 00:04:01,394 - Worker_15 - INFO - Worker_15 exiting
+2025-10-02 00:04:01,412 - Worker_46 - INFO - Worker_46 exiting
+2025-10-02 00:04:01,414 - Worker_13 - INFO - Worker_13 exiting
+2025-10-02 00:04:01,432 - Worker_9 - INFO - Worker_9 exiting
+2025-10-02 00:04:01,454 - Worker_2 - INFO - Worker_2 exiting
+2025-10-02 00:04:01,508 - Worker_17 - INFO - Worker_17 exiting
+2025-10-02 00:04:01,531 - Worker_47 - INFO - Worker_47 exiting
+2025-10-02 00:04:01,583 - Worker_34 - INFO - Worker_34 exiting
+2025-10-02 00:04:01,585 - Worker_1 - INFO - Worker_1 exiting
+2025-10-02 00:04:01,601 - Worker_4 - INFO - Worker_4 exiting
+2025-10-02 00:04:01,667 - Worker_8 - INFO - Worker_8 exiting
+2025-10-02 00:04:01,700 - Worker_14 - INFO - Worker_14 exiting
+2025-10-02 00:04:01,705 - Worker_21 - INFO - Worker_21 exiting
+2025-10-02 00:04:01,741 - Worker_28 - INFO - Worker_28 exiting
+2025-10-02 00:04:01,745 - Worker_39 - INFO - Worker_39 exiting
+2025-10-02 00:04:01,769 - Worker_25 - INFO - Worker_25 exiting
+2025-10-02 00:04:01,842 - Worker_43 - INFO - Worker_43 exiting
+2025-10-02 00:04:01,879 - Worker_23 - INFO - Worker_23 exiting
+2025-10-02 00:04:01,890 - Worker_0 - INFO - Worker_0 exiting
+2025-10-02 00:04:01,905 - Worker_22 - INFO - Worker_22 exiting
+2025-10-02 00:04:01,925 - Worker_5 - INFO - Worker_5 exiting
+2025-10-02 00:04:01,952 - Worker_38 - INFO - Worker_38 exiting
+2025-10-02 00:04:01,960 - Worker_3 - INFO - Worker_3 exiting
+2025-10-02 00:04:01,980 - Worker_45 - INFO - Worker_45 exiting
+2025-10-02 00:04:02,009 - Worker_11 - INFO - Worker_11 exiting
+2025-10-02 00:04:02,308 - Worker_37 - INFO - Worker_37 exiting
+2025-10-02 00:04:02,359 - Worker_19 - INFO - Worker_19 exiting
+2025-10-02 00:04:02,576 - Worker_32 - INFO - Worker_32 exiting
+2025-10-02 00:04:02,745 - Worker_20 - INFO - Worker_20 exiting
+2025-10-02 00:04:02,790 - Worker_42 - INFO - Worker_42 exiting
+2025-10-02 00:04:03,101 - Worker_16 - INFO - Worker_16 exiting
+2025-10-02 00:04:03,144 - Worker_6 - INFO - Worker_6 exiting
+2025-10-02 00:04:03,162 - Worker_35 - INFO - Worker_35 exiting
+2025-10-02 00:04:03,191 - Worker_31 - INFO - Worker_31 exiting
+2025-10-02 00:04:03,246 - Worker_27 - INFO - Worker_27 exiting
+2025-10-02 00:04:03,259 - Worker_12 - INFO - Worker_12 exiting
+2025-10-02 00:04:03,344 - Worker_24 - INFO - Worker_24 exiting
+2025-10-02 00:04:03,596 - Worker_26 - INFO - Worker_26 exiting
+2025-10-02 00:04:31,963 - Worker_44 - INFO - Worker_44 exiting
